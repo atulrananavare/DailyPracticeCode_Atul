@@ -53,6 +53,8 @@ public class GroupByJava8 {
 		 Optional<Employee> old = empList.stream().max(Comparator.comparing(Employee::getAge));
 		 //System.out.println(old);
 		 
+		 
+		 
 		 //Average Salary
 		 Double sal = empList.stream().collect(Collectors.averagingInt(Employee::getSalary));
 		 //System.out.println(sal);
